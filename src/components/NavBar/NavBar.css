@@ -6,9 +6,19 @@ header {
     background-color: darkslateblue;
     color: white;
     padding-left: 1rem;
+    list-style: none;
 }
 
 li {
     display: inline-block;
     margin: 1rem;
+}
+
+img {
+    width: 100px;
+}
+
+.categs{
+    text-decoration: none;
+    color: white;
 }
