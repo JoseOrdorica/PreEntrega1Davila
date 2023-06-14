@@ -1,8 +1,8 @@
 const products = [
-    { nombre: "Mouse", precio: 50, id: "1", img: "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_UF894,1000_QL80_.jpg", idCat: "Periferals" },
-    { nombre: "Teclado", precio: 100, id: "2", img: "https://m.media-amazon.com/images/I/71jAUlz7KPL.jpg", idCat: "Periferals" },
-    { nombre: "Monitor", precio: 500, id: "3", img: "https://snpi.dell.com/snp/images/products/large/es-mx~210-BCYE/210-BCYE_V5.jpg", idCat: "Monitors" },
-    { nombre: "Bocinas", precio: 1000, id: "4", img: "https://www.cyberpuerta.mx/img/product/M/CP-KRK-ROKIT5G4-fca08d.jpg", idCat: "Audio" }
+    { nombre: "Mouse", precio: 50, id: "1", stock: 10, img: "https://m.media-amazon.com/images/I/61lCLrCtuhL._AC_UF894,1000_QL80_.jpg", idCat: "Periferals" },
+    { nombre: "Teclado", precio: 100, id: "2", stock: 10, img: "https://m.media-amazon.com/images/I/71jAUlz7KPL.jpg", idCat: "Periferals" },
+    { nombre: "Monitor", precio: 500, id: "3", stock: 10, img: "https://snpi.dell.com/snp/images/products/large/es-mx~210-BCYE/210-BCYE_V5.jpg", idCat: "Monitors" },
+    { nombre: "Bocinas", precio: 1000, id: "4", stock: 10, img: "https://www.cyberpuerta.mx/img/product/M/CP-KRK-ROKIT5G4-fca08d.jpg", idCat: "Audio" }
 ]
 
 export const getProducts = () => {
