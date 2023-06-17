@@ -5,6 +5,7 @@ import NavBar from './components/NavBar/NavBar';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Cart from './components/Cart/cart';
 import { CartProvider } from './Context/CartContext';
+import Checkout from './components/Checkout/Checkout';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/category/:idCategory' element={ <ItemListContainer/> } />
           <Route path='/item/:idItem' element={ <ItemDetailContainer/> } />
           <Route path='/cart' element = { <Cart/> } />
+          <Route path='/checkout' element = { <Checkout/> } />
           <Route path='*' element={<h2>Site not Found. Sorry for the inconvenience!</h2>} />
         </Routes>
         </CartProvider>

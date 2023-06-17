@@ -1,3 +1,9 @@
-.img {
-    width: 2rem;
+.imgCarrito {
+    width: 4rem;
+    color: aliceblue;
+}
+
+span {
+    color: aliceblue;
+    padding: 10px;
 }

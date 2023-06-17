@@ -11,7 +11,7 @@ const ItemDetail = ({ id, nombre, precio, img, stock }) => {
 
     const manageQuantity = (quantity) => {
       setAddQuantity(quantity);
-      console.log("Added Products" + quantity);
+      // console.log("Added Products" + quantity);
 
       const item = {id, nombre, precio};
       addProduct(item, quantity);
